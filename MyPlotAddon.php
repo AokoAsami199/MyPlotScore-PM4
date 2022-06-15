@@ -32,12 +32,12 @@ namespace JackMD\ScoreHud\Addons
             if ($plot !== null) {
                 $owner = $plot->owner;
                 if (empty($owner)) {
-                    return "Free plot";
+                    return "Free Plot";
                 } else {
                     return $owner;
                 }
             } else {
-                return "No plot";
+                return "No Plot";
             }
         }
             public function getPlotID($plot)
@@ -47,7 +47,7 @@ namespace JackMD\ScoreHud\Addons
                 $z = $plot->Z ?? 0;
                 return $x.";".$z;
             } else {
-                return "No plot";
+                return "No Plot";
             }
         }
 	}
